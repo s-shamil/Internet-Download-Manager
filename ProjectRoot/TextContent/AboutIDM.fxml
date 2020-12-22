@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="121.0" fitWidth="117.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mainStage.png" />
+         </image>
+      </ImageView>
+      <Text fill="#1c7c13" fontSmoothingType="LCD" layoutX="177.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Internet Download Manager" textAlignment="CENTER">
+         <font>
+            <Font name="DAGGERSQUARE" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="315.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version : 1.0.2" textAlignment="CENTER" />
+      <Text layoutX="131.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warning: This computer program is protected by copyright laws and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law." wrappingWidth="338.13671875" />
+   </children>
+</AnchorPane>

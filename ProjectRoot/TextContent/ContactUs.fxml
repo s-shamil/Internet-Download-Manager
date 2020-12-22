@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="235.0" prefWidth="447.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="224.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :  msshamil.xcp@gmail.com">
+         <font>
+            <Font name="Century" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="224.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone : +8801965644074">
+         <font>
+            <Font name="Century" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="180.0" layoutX="32.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mainStage.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
